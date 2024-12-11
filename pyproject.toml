@@ -6,7 +6,8 @@ authors = ["Syunn"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.13"
+python = ">=3.13,<3.14"
+pyside6 = "^6.8.1"
 
 
 [build-system]
