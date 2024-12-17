@@ -1,8 +1,11 @@
-from PySide6.QtCore import QSysInfo
-
 class os:
     def __init__(self):
-        os = QSysInfo()
-        self.name = os.productType()
-        self.version = os.productVersion()
-        self.architecture = os.currentCpuArchitecture()
+        self.os_name
+        self.os_version
+        self.os_maxbit
+
+    def os_shutdown(self):
+        pass
+
+    def os_reboot(self):
+        pass
